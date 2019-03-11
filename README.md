@@ -2,8 +2,13 @@
 
 Simple one page chat app using Node, Express, and socket.io
 
+![](https://i.imgur.com/VkLP3n5.png)
+
+
+
 ### Features:
 
+* Usernames
 * Broadcasts a message when user connects / disconnects
 
 ### To be added soon™:
@@ -12,3 +17,7 @@ Simple one page chat app using Node, Express, and socket.io
 * “{user} is typing”
 * Show who’s online.
 * Add private messaging.
+
+### To run:
+
+Run ``npm init`` to install dependencies, and ``node index.js`` to run the server
