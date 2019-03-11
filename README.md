@@ -2,7 +2,7 @@
 
 Simple one page chat app using Node, Express, and socket.io
 
-![](https://i.imgur.com/JnuPFW8.png)
+![](https://i.imgur.com/VkLP3n5.png)
 
 
 
