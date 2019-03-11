@@ -28,14 +28,3 @@ io.on('connection', function(socket) {
 http.listen(3000, function() {
   console.log('listening on *:3000');
 });
-
-/*
-Homework
-
-Done - Broadcast a message to connected users when someone connects or disconnects.
-Add support for nicknames.
-Don’t send the same message to the user that sent it himself. Instead, append the message directly as soon as he presses enter.
-Add “{user} is typing” functionality.
-Show who’s online.
-Add private messaging.
-*/
