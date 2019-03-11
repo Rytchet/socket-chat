@@ -34,10 +34,10 @@
 
     <main role="main" class="flex-shrink-0">
       <div class="container">
-          <ul class="list-group" id="messages"></ul>
+          <ul class="list-group list-group-flush" id="messages"></ul>
       </div>
     </main>
-    
+
     <footer class="footer mt-auto py-3">
       <div class="container">
         <form action="">
@@ -78,8 +78,10 @@
   
         socket.on('chat message', function(msg, username) {
           $('#messages').append(
+            '<li class="list-group-item">' +
             '<small>' + username + '</small>' +
-            '<p class="mt-1">' + msg + '</p>');
+            '<p class="mt-1">' + msg + '</p>' +
+            '</li>');
         });
       });
     </script>
