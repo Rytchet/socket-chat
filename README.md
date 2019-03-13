@@ -20,4 +20,4 @@ Simple one page chat app using Node, Express, and socket.io
 
 ### To run:
 
-Run ``npm init`` to install dependencies, and ``node index.js`` to run the server
+Run ``npm install`` to install dependencies, and ``node index.js`` to run the server
