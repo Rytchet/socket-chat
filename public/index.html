@@ -63,7 +63,7 @@
         let socket = io()
         $('#username-modal').modal();
 
-        var username = 'Zjebalo sie'
+        var username = 'Test'
         $('#username-submit').click(function() {
           username = $('#username').val();
           socket.emit('user connected', username);
